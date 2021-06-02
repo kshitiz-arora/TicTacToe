@@ -1,6 +1,4 @@
-Course: CS202 Lab 2 (2019CSB1095)
-
-Title: Tic Tac Toe (Java programming assignment)
+Title: Tic Tac Toe (Java programming)
 Description: Java program to play the game of TicTacToe using OOP.
 
 
