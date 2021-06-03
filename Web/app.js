@@ -415,7 +415,7 @@ const handleCellClick = (e) => {
 
 const handleTypeChange = (e) => {
     newGameType = is2P ? 'Player vs Computer' : 'Player vs Player';
-    if (confirm(`Are you sure you want to change game type to ${newGameType}? The current progress will be lost.`)) {
+    if (confirm(`Are you sure you want to change game type to ${newGameType}? ${(boxesFilled===0)?'':'The current progress will be lost.'}`)) {
         is2P = !is2P;
         handleReset();
     }
